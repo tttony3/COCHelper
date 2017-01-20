@@ -1,0 +1,11 @@
+<accessibility-service
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:description="@string/app_name"
+    android:accessibilityEventTypes="typeWindowStateChanged|typeWindowContentChanged"
+    android:accessibilityFeedbackType="feedbackAllMask"
+    android:packageNames="com.supercell.clashofclans.mi"
+    android:notificationTimeout="10"
+    android:settingsActivity="com.github.tttony3.cochelper.SettingsActivity"
+    android:accessibilityFlags="flagDefault"
+    android:canPerformGestures="true"
+    android:canRetrieveWindowContent="true"/>
